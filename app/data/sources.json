@@ -1,0 +1,118 @@
+{
+  "readOn": "20 November 2026",
+  "columns": ["List", "Story", "Activities", "Collect", "Crime", "Strangers", "100%", "Miss", "Secrets"],
+  "sources": [
+    {
+      "id": "exophase",
+      "name": "Exophase",
+      "page": "Grand Theft Auto VI PS5 trophies",
+      "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+      "covers": ["List"]
+    },
+    {
+      "id": "psnprofiles",
+      "name": "PSNProfiles",
+      "page": "Grand Theft Auto VI trophy list and counters",
+      "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+      "covers": ["List", "Activities", "Collect", "Crime", "Strangers", "100%"]
+    },
+    {
+      "id": "pyx-map",
+      "name": "PowerPyx roadmap",
+      "page": "GTA 6 trophy guide and roadmap",
+      "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+      "covers": ["Story", "Activities", "Collect", "Crime", "Strangers", "100%", "Miss", "Secrets"]
+    },
+    {
+      "id": "pyx-100",
+      "name": "PowerPyx 100%",
+      "page": "GTA 6 100% completion checklist",
+      "url": "https://www.powerpyx.com/gta-6-100-completion-checklist-guide/",
+      "covers": ["Activities", "Collect", "Crime", "100%", "Miss"]
+    },
+    {
+      "id": "pyx-med",
+      "name": "PowerPyx meditation",
+      "page": "All meditation spot locations",
+      "url": "https://www.powerpyx.com/gta-6-all-meditation-spot-locations/",
+      "covers": ["Collect", "Miss"]
+    },
+    {
+      "id": "pyx-chal",
+      "name": "PowerPyx challenges",
+      "page": "All 80 challenges",
+      "url": "https://www.powerpyx.com/gta-6-all-challenges-guide/",
+      "covers": ["Activities"]
+    },
+    {
+      "id": "pyx-cards",
+      "name": "PowerPyx cards",
+      "page": "Collectible card sets",
+      "url": "https://www.powerpyx.com/gta-6-all-collectible-card-sets-locations/",
+      "covers": ["Collect", "100%"]
+    },
+    {
+      "id": "pyx-drone",
+      "name": "PowerPyx drones",
+      "page": "Top Fun drone race locations",
+      "url": "https://www.powerpyx.com/gta-6-all-top-fun-drone-race-time-trial-locations/",
+      "covers": ["Activities", "100%"]
+    },
+    {
+      "id": "pyx-str",
+      "name": "PowerPyx strangers",
+      "page": "Strangers and Freaks side missions",
+      "url": "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
+      "covers": ["Strangers", "Miss"]
+    },
+    {
+      "id": "pyx-ufo",
+      "name": "PowerPyx UFO",
+      "page": "UFO easter egg",
+      "url": "https://www.powerpyx.com/gta-6-ufo-aliens-easter-egg-location/",
+      "covers": ["Secrets"]
+    },
+    {
+      "id": "pyx-gar",
+      "name": "PowerPyx garages",
+      "page": "All garage locations",
+      "url": "https://www.powerpyx.com/gta-6-all-garage-locations/",
+      "covers": ["Collect"]
+    },
+    {
+      "id": "pyx-wiki",
+      "name": "PowerPyx wiki",
+      "page": "GTA 6 wiki and strategy guide",
+      "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-wiki-strategy-guide/",
+      "covers": ["Story", "100%", "Miss"]
+    },
+    {
+      "id": "pyx-nomedal",
+      "name": "PowerPyx medals",
+      "page": "Mission gold medals, or the lack of them",
+      "url": "https://www.powerpyx.com/gta-6-are-there-mission-gold-medals/",
+      "covers": ["Activities", "Story"]
+    },
+    {
+      "id": "rps",
+      "name": "Rock Paper Shotgun",
+      "page": "All trophies and achievements",
+      "url": "https://www.rockpapershotgun.com/gta-6-trophy-achievements-list-all-trophies",
+      "covers": ["List"]
+    },
+    {
+      "id": "outlag",
+      "name": "Output Lag",
+      "page": "GTA 6 trophy list",
+      "url": "https://outputlag.com/guides/gta-6-trophy-list/",
+      "covers": ["Story", "Activities", "Crime", "Strangers", "Miss", "Secrets"]
+    },
+    {
+      "id": "timesaver",
+      "name": "Timesaver",
+      "page": "Trophy list, missable note, and platinum time",
+      "url": "https://timesaver.gg/blog/gta-6-trophy-list",
+      "covers": ["List", "Activities", "Crime", "Miss", "100%"]
+    }
+  ]
+}
