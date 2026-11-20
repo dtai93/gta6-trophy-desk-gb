@@ -30,8 +30,20 @@ export function renderTracker(root, state) {
       <ol class="list" id="list">${shown.map((trophy) => row(trophy, state, selected)).join("") || `<li class="empty">No trophies match these filters. The official list has no online trophies.</li>`}</ol>
       <article id="guide" class="guide">${selected ? guide(selected, state) : `<p class="empty">Select a trophy.</p>`}</article>
     </div>`;
+  const list = root.querySelector("#list");
   const current = root.querySelector(".row[aria-current='true']");
-  if (current && state.scrollMode === "end") current.scrollIntoView({ block: "end" });
+  if (current && list && state.scrollMode === "end") {
+    current.scrollIntoView({ block: "end" });
+    // A mid-list jump can leave the top row sliced under the toolbar. Nudge
+    // by that sliver so the first visible trophy starts on a full row.
+    const listRect = list.getBoundingClientRect();
+    for (const row of list.querySelectorAll(".row")) {
+      const rect = row.getBoundingClientRect();
+      if (rect.bottom <= listRect.top + 1) continue;
+      if (rect.top < listRect.top - 1) list.scrollTop += rect.bottom - listRect.top;
+      break;
+    }
+  }
 }
 
 function matches(trophy, state) {
